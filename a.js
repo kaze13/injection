@@ -6,7 +6,7 @@ canvas.id='mario'
 document.body.appendChild(canvas);
 document.body.style.backgroundColor='black';
 
-var c = document.getElementById("myCanvas");
+var c = document.getElementById("mario");
 var ctx = c.getContext("2d");
 
 var marioArray=[
