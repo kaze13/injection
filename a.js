@@ -2,9 +2,10 @@ R=0; x1=.1; y1=.05; x2=.25; y2=.24; x3=1.6; y3=.24; x4=300; y4=200; x5=300; y5=2
 var canvas = document.createElement('canvas');
 canvas.height=600;
 canvas.width=544;
-canvas.id='mario'
+canvas.id='mario';
 document.body.appendChild(canvas);
 document.body.style.backgroundColor='black';
+
 
 var c = document.getElementById("mario");
 var ctx = c.getContext("2d");
