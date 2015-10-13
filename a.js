@@ -3,6 +3,8 @@ var canvas = parent.document.createElement('canvas');
 canvas.height=300;
 canvas.width=272;
 canvas.id='mario';
+canvas.style.position='relative';
+canvas.style.top='300px';
 parent.document.body.appendChild(canvas);
 parent.document.body.style.backgroundColor='black';
 
