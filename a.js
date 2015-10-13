@@ -6,7 +6,6 @@ canvas.id='mario';
 parent.document.body.appendChild(canvas);
 parent.document.body.style.backgroundColor='black';
 
-
 var c = parent.document.getElementById("mario");
 var ctx = c.getContext("2d");
 
