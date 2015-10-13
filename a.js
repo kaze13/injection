@@ -5,6 +5,7 @@ canvas.width=544;
 canvas.id='mario'
 document.body.appendChild(canvas);
 document.body.style.backgroundColor='black';
+
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
