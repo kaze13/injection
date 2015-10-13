@@ -67,7 +67,7 @@ for(var i=0; i < marioArray.length; i++){
      
    }
   //move over 32px   
-  xPos+=16 
+  xPos+=16;
   }//end internal for loop
   //once ctx reaches end on canvas reset xPos to 0
   xPos=0;
