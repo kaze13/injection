@@ -6,6 +6,7 @@ canvas.id='mario';
 canvas.style.position='relative';
 canvas.style.top='250px';
 canvas.style.right='250px';
+
 parent.document.body.appendChild(canvas);
 parent.document.body.style.backgroundColor='black';
 
